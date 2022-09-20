@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inconsolata&family=Lato&family=Parisienne&family=Poppins&display=swap');
+
+body {
+    font-family: sans-serif;
+    background-color: #DEFFFF;
+}
+
+header {
+    border: 6px solid #000;
+    color: #000;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 3px dashed #000;
+}
+
+article {
+    border: 3px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+    /*
+    max-width: 300px;
+    margin: 0px 20px;
+    padding: 5px;
+*/
+}
+
+#art1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+#art2 > h4 {
+    font-family: 'Parisienne', cursive;
+}
+
+#art2 > p {
+    font-family: 'Lato', sans-serif;
+}
+
+#art3 > h4 {
+    font-family: 'Inconsolata', monospace;
+}
+
+#art3 > p {
+    font-family: 'Fredoka One', cursive;
+}
+
+#colors1 {
+    background-color: #E0DEC9;
+    color: #000;
+
+
+}
+
+#colors1 h4 {
+    background-color: #F5F3A4;
+    color: #000;
+    border: 3px solid #E7F7F9;
+    border-radius: 5px;
+}
+
+#colors2 {
+    background-color: #FAF83C;
+    color: #000;
+
+
+}
+
+#colors2 h4 {
+    background-color: #FA0018;
+    color: #fff;
+    border: 3px solid #202AFF;
+    border-radius: 5px;
+}
+
+#colors3 {
+    background-color: #E5E5E3;
+    color: #000;
+
+
+}
+
+#colors3 h4 {
+    background-color: #D3E1E2;
+    color: #000;
+    border: 3px solid #CFD0E3;
+    border-radius: 5px;
+}
+
+#colors4 {
+    background-color: black;
+    color: white;
+}
+
+#colors4 h4 {
+    background-color: black;
+    color: white;
+}
+
+#colors5 {
+    background-color: #595259;
+    color: #F2B872;
+}
+
+#colors5 h4 {
+    background-color: #F5F3A4;
+    color: #000;
+    border: 3px solid #F2B872;
+    border-radius: 5px;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer {
+    border-top: 6px solid #000;
+}
+
+li {
+    padding: 0px;
+    margin: .6rem;
+}
+
+a {
+    padding: .35rem;
+    line-height: 1.5rem;
+    color: blue;
+    background-color: transparent;
+    border-radius: 2px;
+}
+
+a:hover {
+    color: white;
+    background-color: blue;
+}

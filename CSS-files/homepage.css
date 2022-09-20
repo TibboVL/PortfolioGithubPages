@@ -1,0 +1,221 @@
+/*font awesome*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+/*google font poppins (font-family: 'Poppins', sans-serif)*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e5e5f7;
+    opacity: 1;
+    background-image: radial-gradient(#c5c5c5 2px, transparent 2px), radial-gradient(#c5c5c5 2px, #e5e5f7 2px);
+    background-size: 80px 80px;
+    background-position: 0 0, 40px 40px;
+}
+
+/*------everything in a central block-----*/
+main {
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+header {
+    background-color: #ccc;
+    border: 3px solid #eee;
+    height: 220px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(100, 100, 100, 0.5)
+}
+
+#quote {
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1.5rem;
+    text-align: center;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+h1 {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 15px;
+    filter: grayscale(100);
+    transition: 350ms;
+}
+
+img:hover {
+    filter: grayscale(0);
+    transform: scale(.95);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+
+p {
+    line-height: 1.6rem;
+    padding: 5px 10px;
+}
+
+/*----------------links css----------------------*/
+ul {
+    /*    background-color: blue;*/
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    /*    background-color: red;*/
+    display: flex;
+}
+
+a {
+    background-color: #000;
+    text-transform: capitalize;
+    color: deepskyblue;
+    text-decoration: none;
+    transition: 350ms;
+}
+
+a:hover,
+a:focus {
+    background-color: deepskyblue;
+    color: white;
+    transform: scale(1.05);
+
+}
+
+li a {
+    flex: 1 1 100%;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #eee;
+    border: 2px solid #ccc;
+    box-shadow: 5px 5px 5px rgba(100, 100, 100, 0.5)
+}
+
+section,
+div p {
+    padding: 20px 12px;
+}
+
+section h2 {
+    margin-bottom: 15px;
+}
+
+
+/*----------------footer css----------------------*/
+footer {
+    border-radius: 10px;
+    display: flex;
+    background-color: black;
+}
+
+footer p {
+    flex: 1 1 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+footer p a {
+    flex: 1 1 100%;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+footer p a:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+footer p a:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#naar_boven {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#naar_boven a {
+    background-color: transparent;
+}
+
+#naar_boven a:hover {
+    background-color: deepskyblue;
+}
+
+/*----------------MEDIA QUERY----------------------*/
+
+@media screen and (min-width:800px) {
+
+    /*---------header for big screen----------*/
+    header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    #quote {
+        border-top: 0px solid #000;
+        animation: appear 500ms 1;
+    }
+
+    @keyframes appear {
+        0% {
+            transform: scale(0);
+            color: transparent;
+        }
+
+        100% {
+            transform: scale(1);
+            color: #000;
+        }
+    }
+
+    h1 {
+        margin: auto;
+        background-color: blue;
+        display: inline-block;
+        flex: 1 1 100%;
+        flex-basis: 50%;
+        text-align: left;
+        background-color: transparent;
+        margin-left: 20px;
+
+    }
+
+    /*----------make columns---------------*/
+    main div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    section,
+    div p {
+        flex-basis: 100%;
+    }
+
+    section li {
+        margin-bottom: 8px;
+    }
+
+}

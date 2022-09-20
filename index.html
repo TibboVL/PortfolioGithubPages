@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>Portfolio Tibbo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tibbo Van Leemput">
+    <meta name="description" content="Dit is een website met mijn portfolio.">
+    <link rel="stylesheet" href="CSS-files/homepage.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div>
+                <svg width="200" height="200">
+
+                    <defs>
+                        <clipPath id="cut-off-circle">
+                            <circle cx="100" cy="100" r="100" fill="black" />
+                        </clipPath>
+                    </defs>
+
+                    <!--background-->
+                    <circle cx="100" cy="100" r="100" fill="#3cd3e7" />
+
+                    <!--shadow part-->
+                    <polygon points="0,200 0,70 47,46 85,70 100,165 30,200" fill="#1abbd1" clip-path="url(#cut-off-circle)" />
+
+                    <!--T part-->
+                    <polygon points="47,46 153,46 153,70 115,70 115,150 85,150 85,70 47,70" fill="white" />
+
+                    <!--round left top-->
+                    <circle cx="47" cy="58" r="12" fill="white" />
+
+                    <!--round right top-->
+                    <circle cx="153" cy="58" r="12" fill="white" />
+
+                    <!--round bottom-->
+                    <circle cx="100" cy="150" r="15" fill="white" />
+                </svg>
+                <h1>Portfolio Tibbo Van Leemput</h1>
+            </div>
+        </header>
+        <p id="quote">"Don't stop until you're proud."</p>
+
+        <h2><i class="fas fa-question"></i> Over mij</h2>
+        <div>
+            <p>Ik ben een 18-jarige jongvolwassene die graag veel tijd spendeert aan en mét computers. Voorzien van een gezonde leergierigheid ga ik geen enkele uitdaging uit de weg. Voor alles is een oplossing! </p>
+
+            <p>In het secundair volgde ik de technische opleiding elektrische installatietechnieken die ik mocht afronden met een GIP. Hiervoor bouwde ik een arcadekast op rond een PLC en een Raspberry-Pi. Vooral de samenwerking van de verschillende componenten en de programmatie ervan triggerde en bepaalde mijn interesses naar de toekomst toe. </p>
+
+            <p>In mijn vrije tijd ben ik graag bezig met computers en smartphones en tussendoor ook met het programmeren van mini-games. Natuurlijk moet er soms ook tijd zijn om zelf te gamen of naar muziek te luisteren. Daarnaast kan ik ook genieten van een wandeling die ik voor mezelf heb uitgestippeld.</p>
+        </div>
+
+        <img src="Images/wires.jpg" alt="wires">
+        <div>
+            <section>
+                <h2><i class="fas fa-pencil-alt"></i> Design</h2>
+                <ul>
+                    <li><a href="images.html">afbeeldingen</a></li>
+                    <li><a href="fontscolors.html">kleuren en tekst typen</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h2><i class="fas fa-microchip"></i> Tech</h2>
+                <ul>
+                    <li><a href="toptech.html">top tech sites</a></li>
+                    <li><a href="retro.html">retro stuff</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h2><i class="fas fa-tasks"></i> Projects</h2>
+                <ul>
+                    <li><a href="entrepreneurship.html">bootstrap</a></li>
+                </ul>
+            </section>
+        </div>
+        <p id="naar_boven"><a href="#"><i class="fas fa-arrow-up"></i> naar boven</a></p>
+        <footer>
+            <p>
+                <a href="https://www.pexels.com/@tvl-118163668"><i class="fas fa-camera"></i> Pexels</a><a href="https://github.com/TibboVL"><i class="fab fa-github"></i> Github</a>
+            </p>
+        </footer>
+    </main>
+</body>
+
+</html>

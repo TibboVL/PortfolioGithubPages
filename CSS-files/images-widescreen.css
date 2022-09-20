@@ -1,0 +1,70 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    background:
+        linear-gradient(324deg, white 4%, transparent 4%) -70px 43px,
+        linear-gradient(36deg, white 4%, transparent 4%) 30px 43px,
+        linear-gradient(72deg, #e3d7bf 8.5%, transparent 8.5%) 30px 43px,
+        linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -70px 43px,
+        linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -70px 23px,
+        linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 30px 23px,
+
+        linear-gradient(324deg, white 4%, transparent 4%) -20px 93px,
+        linear-gradient(36deg, white 4%, transparent 4%) 80px 93px,
+        linear-gradient(72deg, #e3d7bf 8.5%, transparent 8.5%) 80px 93px,
+        linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -20px 93px,
+        linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -20px 73px,
+        linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 80px 73px;
+    background-color: white;
+    background-size: 100px 100px;
+}
+
+main {
+    margin: 10px auto;
+    max-width: 960px;
+    padding: 20px;
+    background-color: #e3d7bf;
+    border-radius: 20px;
+    border: 3px solid #000;
+}
+
+h1,
+h2,
+figure {
+    text-align: center;
+    padding: 10px;
+}
+
+h1 span {
+    display: inline;
+}
+
+h2 {
+    display: inline-block
+}
+
+img {
+    border: 4px solid #000;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+div {
+    display: inline-block;
+}
+
+p {
+    padding: 10px;
+}
+
+table {
+    display: none;
+}
+
+footer {
+    display: inline;
+}
